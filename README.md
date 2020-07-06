@@ -1,3 +1,3 @@
 # Rotaract Bangalore Basaveshwarnagar
 
-#### Website done using Hugo
+Website done using Hugo
