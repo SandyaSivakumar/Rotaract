@@ -10,6 +10,14 @@
         <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
         {{ end }}
         {{ .Content }}
+        <ul>
+            {{ $gistJ := getJSON $urlPre "http://localhost:8080/api/v1/" }}
+            {{ range first 5 $gistJ }}
+                {{ if .public }}
+                <li><a href="{{ .html_url }}" target="_blank">{{ .description }}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
       </div>
     </div>
   </div>
