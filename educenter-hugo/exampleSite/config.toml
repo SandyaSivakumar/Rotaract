@@ -50,7 +50,7 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "members"
+name = "Members"
 URL = "members"
 weight = 2
 
@@ -85,7 +85,7 @@ weight = 2
 #   URL = "research"
   
 [[menu.main]]
-name = "donate"
+name = "Donate"
 URL = "donate"
 weight = 5
 
@@ -103,36 +103,28 @@ weight = 4
 # footer menu
 
 [[menu.footer]]
-name = "teacher"
-URL = "teacher"
+name = "Join Us"
+URL = "joinus"
 
 [[menu.footer]]
-name = "notice"
-URL = "notice"
+name = "Events"
+URL = "events"
 
 [[menu.footer]]
-name = "event"
-URL = "event"
-
-[[menu.footer]]
-name = "scholarship"
-URL = "scholarship"
-
-[[menu.footer]]
-name = "research"
-URL = "research"
+name = "About"
+URL = "about"
 
 
 #################### default parameters ################################
 [params]
-logo = "images/rotary.png"
+logo = "images/logo2.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@educenter.com"
+address = "Basaveshwaranagar, Banagalore, Karnataka"
+mobile = "+91 9535179196"
+email = "chiranthans23@gmail.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -167,9 +159,9 @@ icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
 link = "https://www.facebook.com/rotaractbasaveshwaranagar"
 
 [[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "youtube"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UCmYR-QT8Ak4g20U-iletA7Q"
 
 [[params.social]]
 title = "instagram"
